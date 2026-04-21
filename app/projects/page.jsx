@@ -6,29 +6,29 @@ export default function Projects() {
     const projects = [
         {
             id: 1,
-            name: 'Drowing room for family time ',
-            description: 'Badroom with a clean and comfortable design for your family. charming whit a modern design. ',
+            name: 'Residential Feature Wall — Petaling Jaya',
+            description: 'Full living room feature wall wrapped in Korean wood-grain film. Clean, warm finish completed in a single day.',
             image: '/wallpaper/56137-3C.jpg',
             link: '',
         },
         {
             id: 2,
-            name: 'Kitchen look modern and clean',
-            description: 'kitchen look modern and clean. charming whit a modern design. ',
+            name: 'Commercial Office Fit-Out — KL City',
+            description: 'Stone-effect Korean interior film applied to reception columns and partition walls for a modern corporate look.',
             image: '/wallpaper/56139-3C.jpg',
             link: '',
         },
         {
             id: 3,
-            name: 'Perfect living room for family time',
-            description: 'Drowing room with a clean and comfortable design for your family. charming whit a modern design. ',
+            name: 'Café Interior Revamp — Subang',
+            description: 'Full café wall and ceiling refresh using a mix of fabric-texture and solid-colour Korean films. Transformed in two days.',
             image: '/wallpaper/56140-3C.jpg',
         },
     ];
     return (
         <div className="">
-            <div className="bg-[url('/wallpaper/56136-1C.jpg')] bg-center bg-cover ">
-                <h1 className="container py-64 text-6xl font-semibold tracking-widest text-white ">OUR PROJECTS</h1>
+            <div className="bg-[url('/wallcosmetics_banner.jpg')] bg-center bg-cover ">
+                <h1 className="container py-64 text-6xl font-semibold tracking-widest text-white "></h1>
             </div>
             <div className="container grid grid-cols-2 gap-8 py-8">
 

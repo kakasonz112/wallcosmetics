@@ -6,31 +6,31 @@ export default function CatalogueSection() {
     const items = [
         {
             id: "01",
-            catagory: "BEDROOM SETUP",
-            title: "Cossy Bedroom Setup",
+            catagory: "WOOD GRAIN",
+            title: "Natural Wood Texture",
             image: "/wallpaper/56113-5C.jpg",
-            description: "family drowing room with a clean and comfortable design for your family.",
+            description: "Realistic wood-grain interior film — warm, natural tones that bring organic beauty to any surface.",
         },
         {
             id: "02",
-            catagory: "KITCHING SETUP",
-            title: "Neat & Clean Kitchen",
+            catagory: "STONE & MARBLE",
+            title: "Marble Stone Finish",
             image: "/wallpaper/56116-2C.jpg",
-            description: "family drowing room with a clean and comfortable design for your family.",
+            description: "Luxurious stone and marble patterns that add elegance to walls, counters, and furniture.",
         },
         {
             id: "03",
-            catagory: "DROWING SETUP",
-            title: "Family Drowing Room",
+            catagory: "FABRIC & LEATHER",
+            title: "Soft Fabric Weave",
             image: "/wallpaper/56117-2C.jpg",
-            description: "family drowing room with a clean and comfortable design for your family.",
+            description: "Premium fabric and leather-effect films for a sophisticated, tactile finish in any room.",
         },
         {
             id: "04",
-            catagory: "LIVING SETUP",
-            title: "Clean Family Room",
+            catagory: "SOLID COLOURS",
+            title: "Clean Solid Palette",
             image: "/wallpaper/56118-2C.jpg",
-            description: "family drowing room with a clean and comfortable design for your family.",
+            description: "Hundreds of solid-colour films — matte, gloss, and satin — for a crisp, minimal look.",
         },
     ]
 

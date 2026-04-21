@@ -4,8 +4,8 @@ export default function AboutComponent() {
     return (
         <div className="container py-16">
             <div className="flex items-center justify-between pb-4">
-                <a className="py-4 text-3xl font-extrabold leading-tight text-gray-800 lg:text-5xl" href="">An aesthetic room is <br />given harmony</a>
-                <p className="tracking-wider text-gray-400">WORLD AWARD</p>
+                <a className="py-4 text-3xl font-extrabold leading-tight text-gray-800 lg:text-5xl" href="">Premium surfaces, <br />Korean craftsmanship</a>
+                <p className="tracking-wider text-gray-400">CERTIFIED SUPPLIER</p>
             </div>
             <div className="grid lg:grid-cols-2 place-items-center ">
                 <div>
@@ -14,7 +14,7 @@ export default function AboutComponent() {
 
                 <div className="items-center">
                     <p className="px-12 pb-4 ">
-                        Digimax Classica is a company engaged in the field of interior design. We provide the best interior design for your home. We have been trusted by many people to design their homes. We have also received many awards from various countries for our work.
+                        Wall Cosmetics is an authorised distributor of premium Korean interior films and wallpapers. Our products are trusted by homeowners, contractors, and commercial fit-out teams across Malaysia. We carry a wide range of textures — wood, stone, fabric, metal, and solid colours — all designed to last.
                     </p>
                     <div className="flex px-12 pt-4 gap-x-4 ">
                         <Image src="/wallpaper/56125-3C.jpg" width={100} height={80} alt="" className=" h-[100px]" />
