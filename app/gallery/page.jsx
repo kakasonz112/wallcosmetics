@@ -6,50 +6,48 @@ export default function Gallery() {
 
         <div class="container py-10 grid grid-cols-2 md:grid-cols-4 gap-4">
 
-
-
             <div class="flex flex-col gap-4">
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="/image/badroom.jpg" alt="" />
+                    <img class="h-auto max-w-full rounded-lg" src="/wallpaper/56113-5C.jpg" alt="" />
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="/image/gallery2.jpg" alt="" />
+                    <img class="h-auto max-w-full rounded-lg" src="/wallpaper/56114-2C.jpg" alt="" />
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="/image/gallery.jpg" alt="" />
+                    <img class="h-auto max-w-full rounded-lg" src="/wallpaper/56116-2C.jpg" alt="" />
                 </div>
             </div>
             <div class="flex flex-col gap-4">
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="/image/swiper1.jpg" alt="" />
+                    <img class="h-auto max-w-full rounded-lg" src="/wallpaper/56117-2C.jpg" alt="" />
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="/image/gallery11.jpg" alt="" />
+                    <img class="h-auto max-w-full rounded-lg" src="/wallpaper/56117-3C.jpg" alt="" />
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="/image/living.jpg" alt="" />
-                </div>
-            </div>
-            <div class="flex flex-col gap-4">
-                <div>
-                    <img class="h-auto max-w-full rounded-lg" src="/image/gallery14.jpg" alt="" />
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg" src="/image/gallery15.jpg" alt="" />
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg" src="/image/gallery12.jpg" alt="" />
+                    <img class="h-auto max-w-full rounded-lg" src="/wallpaper/56118-2C.jpg" alt="" />
                 </div>
             </div>
             <div class="flex flex-col gap-4">
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="/image/gallery7.jpg" alt="" />
+                    <img class="h-auto max-w-full rounded-lg" src="/wallpaper/56119-2C.jpg" alt="" />
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="/image/gallery11.jpg" alt="" />
+                    <img class="h-auto max-w-full rounded-lg" src="/wallpaper/56120-2C.jpg" alt="" />
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="/image/gallery3.jpg" alt="" />
+                    <img class="h-auto max-w-full rounded-lg" src="/wallpaper/56120-3C.jpg" alt="" />
+                </div>
+            </div>
+            <div class="flex flex-col gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="/wallpaper/56121-5C.jpg" alt="" />
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="/wallpaper/56122-1C.jpg" alt="" />
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="/wallpaper/56122-2C.jpg" alt="" />
                 </div>
             </div>
         </div>

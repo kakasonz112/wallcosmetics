@@ -9,6 +9,7 @@ const nav = [
     { href: '/projects', label: 'PROJECTS' },
     { href: '/about', label: 'ABOUT US' },
     { href: '/gallery', label: 'GALLERY' },
+    { href: '/catalog', label: 'CATALOG' },
 
 ]
 
@@ -35,7 +36,7 @@ export default function Navigation() {
                 </svg>
             </button>
 
-            <nav className={`lg:flex gap-x-6 transform transition ${isOpen ? 'flex flex-col px-8 py-12 z-50  gap-y-6 absolute inset-y-0 bg-white right-0  translate-x-0 ' : 'hidden max-md:translate-x-full'}`}>
+            <nav className={`lg:flex gap-x-6 transform transition ${isOpen ? 'flex flex-col px-8 py-12 z-50 min-h-[300px] gap-y-6 absolute inset-y-0 bg-white right-0 translate-x-0' : 'hidden max-md:translate-x-full'}`}>
                 {nav.map(({ href, label }) => (
                     <Link key={href} href={href} className={
                         pathname === href ? 'text-black font-semibold' : ''

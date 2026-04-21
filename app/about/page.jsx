@@ -3,7 +3,7 @@ import { TbArrowUpRight } from "react-icons/tb"
 export default function About() {
     return (
         <div>
-            <div className="bg-[url('/image/about.jpg')] bg-center bg-cover ">
+            <div className="bg-[url('/wallpaper/56127-3C.jpg')] bg-center bg-cover ">
                 <h1 className="container py-32 text-6xl font-semibold tracking-widest text-center text-white lg:py-64 lg:text-left ">WHO ARE WE?</h1>
 
             </div>
@@ -16,7 +16,7 @@ export default function About() {
                 </div>
                 <div className="items-center lg:flex gap-x-8">
                     <div className="w-full">
-                        <Image src="/image/gallery1123.jpg" width={700} height={700} alt="" className="" />
+                        <Image src="/wallpaper/56128-4C.jpg" width={700} height={700} alt="" className="" />
                     </div>
                     <div className="">
                         <p className="pb-8 tracking-wide">
@@ -41,7 +41,7 @@ export default function About() {
                     <div className="grid gap-20 py-8 lg:grid-cols-3">
                         <div className="border-2 border-gray-500 ">
                             <div className="-m-0.5 p-4 text-center transition hover:-translate-y-3 hover:-translate-x-3 aspect-square bg-zinc-100 ">
-                                <Image src="/image/profile2.jpg" width={200} height={200} alt="" className="mx-auto rounded-full " />
+                                <Image src="/wallpaper/56132-3C.jpg" width={200} height={200} alt="" className="mx-auto rounded-full " />
                                 <h2 className="py-4 text-2xl font-semibold " >BUILDING SURVEYS</h2>
                                 <p className="text-sm text-gray-400">
                                     Creativity is the ability to generate, create, or discover new ideas, solutions, and possibilities.
@@ -50,7 +50,7 @@ export default function About() {
                         </div>
                         <div className="border-2 border-gray-500 ">
                             <div className="-m-0.5 p-4 text-center transition hover:-translate-y-3 hover:-translate-x-3 aspect-square bg-zinc-100 ">
-                                <Image src="/image/profile1.jpg" width={200} height={200} alt="" className="mx-auto rounded-full " />
+                                <Image src="/wallpaper/56133-3C.jpg" width={200} height={200} alt="" className="mx-auto rounded-full " />
                                 <h2 className="py-4 text-2xl font-semibold " >BUILDING SURVEYS</h2>
                                 <p className="text-sm text-gray-400">
                                     Creativity is the ability to generate, create, or discover new ideas, solutions, and possibilities.
@@ -59,7 +59,7 @@ export default function About() {
                         </div>
                         <div className="border-2 border-gray-500 ">
                             <div className="-m-0.5 p-4 text-center transition hover:-translate-y-3 hover:-translate-x-3 aspect-square bg-zinc-100 ">
-                                <Image src="/image/profile3.jpg" width={200} height={200} alt="" className="mx-auto rounded-full " />
+                                <Image src="/wallpaper/56135-1C.jpg" width={200} height={200} alt="" className="mx-auto rounded-full " />
                                 <h2 className="py-4 text-2xl font-semibold " >BUILDING SURVEYS</h2>
                                 <p className="text-sm text-gray-400">
                                     Creativity is the ability to generate, create, or discover new ideas, solutions, and possibilities.

@@ -9,7 +9,7 @@ export default function AboutComponent() {
             </div>
             <div className="grid lg:grid-cols-2 place-items-center ">
                 <div>
-                    <Image src="/image/aboutfront.png" width={900} height={500} alt="" className="max-md:hidden" />
+                    <Image src="/wallpaper/56124-5C.jpg" width={900} height={500} alt="" className="max-md:hidden" />
                 </div>
 
                 <div className="items-center">
@@ -17,8 +17,8 @@ export default function AboutComponent() {
                         Digimax Classica is a company engaged in the field of interior design. We provide the best interior design for your home. We have been trusted by many people to design their homes. We have also received many awards from various countries for our work.
                     </p>
                     <div className="flex px-12 pt-4 gap-x-4 ">
-                        <Image src="/image/awards.png" width={100} height={80} alt="" className=" h-[100px]" />
-                        <Image src="/image/awards1.png" width={100} height={80} alt="" className=" h-[100px]" />
+                        <Image src="/wallpaper/56125-3C.jpg" width={100} height={80} alt="" className=" h-[100px]" />
+                        <Image src="/wallpaper/56126-1C.jpg" width={100} height={80} alt="" className=" h-[100px]" />
                     </div>
                 </div>
             </div>
