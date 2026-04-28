@@ -5,6 +5,11 @@ import dynamic from 'next/dynamic';
 
 const CatalogPdfViewers = dynamic(() => import('@/components/CatalogPdfViewers'), { ssr: false });
 
+// Locally: empty string → PDFs served from /catalog/ in public/
+// On Vercel: set NEXT_PUBLIC_PDF_BASE_URL to GitHub LFS media CDN base
+// e.g. https://media.githubusercontent.com/media/kakasonz112/wallcosmetics/main/public
+const PDF_BASE = process.env.NEXT_PUBLIC_PDF_BASE_URL ?? '';
+
 const CATEGORIES = [
     'All',
     'Interior Film',
@@ -19,7 +24,7 @@ const catalogs = [
         title: 'Bodaq Interior Film 2025',
         category: 'Interior Film',
         badge: 'Interior Film',
-        pdf: '/catalog/Bodaq-E-catalogHQ-2025.pdf',
+        pdf: `${PDF_BASE}/catalog/Bodaq-E-catalogHQ-2025.pdf`,
         description:
             'Premium self-adhesive interior film collection featuring wood, stone, marble, fabric, leather, and solid-colour patterns. Designed for durable, stylish surface transformation for any space.',
         gradient: 'from-slate-700 to-slate-900',
@@ -30,7 +35,7 @@ const catalogs = [
         title: 'Artisan Walls',
         category: 'Contemporary Wallpaper',
         badge: 'Contemporary Wallpaper',
-        pdf: '/catalog/ARTISAN%20WALLS%20e-Catalog.pdf',
+        pdf: `${PDF_BASE}/catalog/ARTISAN%20WALLS%20e-Catalog.pdf`,
         description:
             'Contemporary, neutral-toned striped patterns set in modern furniture showroom environments. Emphasizes subtle texture and minimalist aesthetics suitable for upscale residential and commercial spaces.',
         gradient: 'from-stone-500 to-stone-700',
@@ -41,7 +46,7 @@ const catalogs = [
         title: 'Aurora 2',
         category: 'Contemporary Wallpaper',
         badge: 'Contemporary Wallpaper',
-        pdf: '/catalog/AURORA%202-%20E%20catalogue.pdf',
+        pdf: `${PDF_BASE}/catalog/AURORA%202-%20E%20catalogue.pdf`,
         description:
             'Comprehensive color-coordinated design lines with large palettes spanning warm, neutral, and cool tones. Fine linear and textured finishes for modern living rooms, bedrooms, and commercial spaces.',
         gradient: 'from-amber-500 to-orange-700',
@@ -52,7 +57,7 @@ const catalogs = [
         title: 'Attalia',
         category: 'Fabric-Backed Vinyl',
         badge: 'Fabric-Backed Vinyl',
-        pdf: '/catalog/Attalia1.pdf',
+        pdf: `${PDF_BASE}/catalog/Attalia1.pdf`,
         description:
             'Fabric-backed vinyl wallcoverings in multiple palettes — earth tones, neutrals, blues, teals, and warm tones. Vertical stripe and linear texture patterns versatile for residential, hospitality, and healthcare.',
         gradient: 'from-teal-600 to-cyan-800',
@@ -63,7 +68,7 @@ const catalogs = [
         title: 'La Villa',
         category: 'Fabric-Backed Vinyl',
         badge: 'Fabric-Backed Vinyl',
-        pdf: '/catalog/LA%20VILLA.pdf',
+        pdf: `${PDF_BASE}/catalog/LA%20VILLA.pdf`,
         description:
             'Commercial-grade fabric-backed vinyl wallcovering for hotels, retail, schools, and offices. Durable textile patterns with dimensional stability designed for high-traffic environments.',
         gradient: 'from-emerald-600 to-teal-800',
@@ -74,7 +79,7 @@ const catalogs = [
         title: 'Nova Walls',
         category: 'Fabric-Backed Vinyl',
         badge: 'Fabric-Backed Vinyl',
-        pdf: '/catalog/NOVA%20WALLS%20(1).pdf',
+        pdf: `${PDF_BASE}/catalog/NOVA%20WALLS%20(1).pdf`,
         description:
             '40+ colour and texture options emphasizing linear and woven patterns. 15 oz Osnaburg-backed vinyl in neutral palettes — whites, beiges, grays, and greens for contemporary commercial and residential interiors.',
         gradient: 'from-green-600 to-emerald-800',
@@ -85,7 +90,7 @@ const catalogs = [
         title: 'Zen Wall by Durawall',
         category: 'Fabric-Backed Vinyl',
         badge: 'Fabric-Backed Vinyl',
-        pdf: '/catalog/Zen%20wall%20fabric%20backed%20PDF%20.pdf',
+        pdf: `${PDF_BASE}/catalog/Zen%20wall%20fabric%20backed%20PDF%20.pdf`,
         description:
             'Professional poly-cotton backed vinyl with unique micro-venting technology for breathability. Fire-retardant (Class A / B1), low-VOC, phthalate-free, and antimicrobial — ideal for mold-resistant applications.',
         gradient: 'from-cyan-600 to-teal-900',
@@ -96,7 +101,7 @@ const catalogs = [
         title: 'Decent Collection',
         category: 'Korean Wallpaper',
         badge: 'Korean Wallpaper · KCC SHD',
-        pdf: '/catalog/DECENT%20(1).pdf',
+        pdf: `${PDF_BASE}/catalog/DECENT%20(1).pdf`,
         description:
             'Premium interior wallcovering emphasizing natural materials and timeless elegance. Warm neutrals with botanical and textural designs in gold, brown, blues, and greens for contemporary living spaces.',
         gradient: 'from-yellow-600 to-amber-800',
@@ -107,7 +112,7 @@ const catalogs = [
         title: 'Canvas Collection',
         category: 'Korean Wallpaper',
         badge: 'Korean Wallpaper · KCC SHD',
-        pdf: '/catalog/CANVAS%20(1).pdf',
+        pdf: `${PDF_BASE}/catalog/CANVAS%20(1).pdf`,
         description:
             'Bold geometric and abstract botanical patterns in sophisticated navy blues, gold, and cream. A design-forward collection for accent walls featuring leaf and organic motifs.',
         gradient: 'from-indigo-600 to-blue-900',
@@ -118,7 +123,7 @@ const catalogs = [
         title: 'Dream World Collection',
         category: 'Korean Wallpaper',
         badge: 'Korean Wallpaper · KCC SHD',
-        pdf: '/catalog/Dream%20World.pdf',
+        pdf: `${PDF_BASE}/catalog/Dream%20World.pdf`,
         description:
             "Age-appropriate kids' wallpaper across three groups — Baby (0–5) with soft pastels and cute animals, Kids (5–10) with vibrant dinosaurs and adventure themes, Teens (10–15) with cosmic and gaming aesthetics.",
         gradient: 'from-violet-500 to-purple-800',
@@ -129,7 +134,7 @@ const catalogs = [
         title: 'Festa Collection',
         category: 'Korean Wallpaper',
         badge: 'Korean Wallpaper · GAENARI',
-        pdf: '/catalog/FESTA_Cat.pdf',
+        pdf: `${PDF_BASE}/catalog/FESTA_Cat.pdf`,
         description:
             'Luxury eco-premium silk wallcovering with woven textile effects — curled textures, canvas weaves, linens, and stone finishes in soft neutral hues. Four themes: Timeless, Sensuous, Evocative, and Luxurious.',
         gradient: 'from-fuchsia-500 to-pink-800',
@@ -140,7 +145,7 @@ const catalogs = [
         title: 'Premium Silk Collection',
         category: 'Korean Wallpaper',
         badge: 'Korean Wallpaper · KCC SHD',
-        pdf: '/catalog/Project%20unlimited_pdf%20(1).pdf',
+        pdf: `${PDF_BASE}/catalog/Project%20unlimited_pdf%20(1).pdf`,
         description:
             'Premium 106 cm × 15.6 m silk rolls. Anti-fungus, anti-virus, anti-bacterial, and OEKO-TEX® certified. 16+ design collections including noble stone, boucle, cashmere, botanical prints, and velvet finishes.',
         gradient: 'from-rose-500 to-pink-800',
@@ -151,7 +156,7 @@ const catalogs = [
         title: 'Tahiti Collection',
         category: 'Korean Wallpaper',
         badge: 'Korean PVC Wallpaper',
-        pdf: '/catalog/TAHITI_E-CATALOG.pdf',
+        pdf: `${PDF_BASE}/catalog/TAHITI_E-CATALOG.pdf`,
         description:
             '"Unique and Different" — modern, nature-inspired, and artistic patterns for premium residential interiors. PVC-coated with paper backing in 1.06 m × 15.5 m rolls. Moisture-resistant and lightly scrubbable.',
         gradient: 'from-purple-600 to-violet-900',
@@ -162,7 +167,7 @@ const catalogs = [
         title: 'Savoy — Flow with Nature',
         category: 'Korean Wallpaper',
         badge: 'Korean PVC Wallpaper',
-        pdf: '/catalog/SAVOY%20-%20E%20Cat.pdf',
+        pdf: `${PDF_BASE}/catalog/SAVOY%20-%20E%20Cat.pdf`,
         description:
             '15 distinct nature-inspired patterns in 71 colour variations. Wave, shell, linen, and stone-like organic textures in 1.06 m durable PVC rolls — organized in the SV1001 to SV1015 series.',
         gradient: 'from-sky-500 to-blue-800',
