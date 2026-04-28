@@ -11,15 +11,15 @@ export const metadata = {
     template: "%s | Wall Cosmetics",
   },
   description:
-    "Wall Cosmetics is Malaysia's trusted supplier of premium Korean interior films and wallpapers. Discover wood, stone, fabric, and solid-colour finishes for homes and commercial spaces.",
+    "Wall Cosmetics is Singapore's trusted supplier of premium Korean interior films and wallpapers. Discover wood, stone, fabric, and solid-colour finishes for homes and commercial spaces.",
   keywords: [
-    "Korean wallpaper Malaysia",
+    "Korean wallpaper Singapore",
     "interior film",
     "Korean interior film",
     "wall covering",
     "Bodaq film",
     "decorative film",
-    "wallpaper supplier Malaysia",
+    "wallpaper supplier Singapore",
   ],
   authors: [{ name: "Wall Cosmetics" }],
   creator: "Wall Cosmetics",
@@ -27,7 +27,7 @@ export const metadata = {
   openGraph: {
     title: "Wall Cosmetics — Premium Korean Wallpaper & Interior Film",
     description:
-      "Malaysia's trusted supplier of premium Korean interior films. Wood, stone, fabric & solid-colour finishes for every surface.",
+      "Singapore's trusted supplier of premium Korean interior films. Wood, stone, fabric & solid-colour finishes for every surface.",
     url: "https://wallcosmetics.com",
     siteName: "Wall Cosmetics",
     images: [
@@ -38,7 +38,7 @@ export const metadata = {
         alt: "Wall Cosmetics — Korean Interior Film",
       },
     ],
-    locale: "en_MY",
+    locale: "en_SG",
     type: "website",
   },
   icons: {

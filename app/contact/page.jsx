@@ -35,8 +35,8 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <p className="text-xs tracking-widest uppercase text-gray-400 mb-0.5">Phone</p>
-                                    <a href="tel:5555555555" className="text-gray-800 font-medium hover:text-gray-500 transition-colors">
-                                        555-555-5555
+                                    <a href="tel:+6596497929" className="text-gray-800 font-medium hover:text-gray-500 transition-colors">
+                                        +65 9649 7929
                                     </a>
                                 </div>
                             </div>
@@ -48,8 +48,8 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <p className="text-xs tracking-widest uppercase text-gray-400 mb-0.5">Email</p>
-                                    <a href="mailto:hello@wallcosmetics.com" className="text-gray-800 font-medium hover:text-gray-500 transition-colors">
-                                        hello@wallcosmetics.com
+                                    <a href="mailto:enquiry@wallcosmetics.com.sg" className="text-gray-800 font-medium hover:text-gray-500 transition-colors">
+                                        enquiry@wallcosmetics.com.sg
                                     </a>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@ export default function Contact() {
                                 <div>
                                     <p className="text-xs tracking-widest uppercase text-gray-400 mb-0.5">Showroom</p>
                                     <p className="text-gray-800 font-medium leading-snug">
-                                        123 Design Street<br />Kuala Lumpur, Malaysia
+                                        133 Canberra View<br />Canberra Plaza #02-19, Singapore
                                     </p>
                                 </div>
                             </div>

@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from 'react';
 const CatalogFlipBook     = dynamic(() => import('@/components/CatalogFlipBook'),     { ssr: false });
 const CatalogSpreadViewer = dynamic(() => import('@/components/CatalogSpreadViewer'), { ssr: false });
 
-export default function CatalogPdfViewers({ pdfUrl }) {
+export default function CatalogPdfViewers({ pdfUrl, downloadLabel = 'Download Catalog 2025' }) {
     const sentinelRef = useRef(null);
     const [showSpread, setShowSpread] = useState(false);
 
@@ -40,7 +40,7 @@ export default function CatalogPdfViewers({ pdfUrl }) {
                     download
                     className="inline-block px-8 py-3 bg-gray-950 text-white rounded-full hover:bg-gray-700 transition-colors shadow-md"
                 >
-                    Download Catalog 2025
+                    {downloadLabel}
                 </a>
             </div>
 

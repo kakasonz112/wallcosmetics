@@ -8,9 +8,9 @@ export default function About() {
             </div>
             <div className="container ">
                 <div className="py-4 lg:py-14">
-                    <h2 className="p-4 text-3xl font-semibold text-center lg:p-20 lg:text-5xl">Malaysia's Trusted Korean Wallpaper Specialist</h2>
+                    <h2 className="p-4 text-3xl font-semibold text-center lg:p-20 lg:text-5xl">Singapore's Trusted Korean Wallpaper Specialist</h2>
                     <p className="text-2xl font-medium lg:w-1/2">
-                        Wall Cosmetics is an authorised supplier of premium Korean interior films and wallpapers in Malaysia. We offer a vast catalogue of textures, finishes, and patterns — sourced directly from Korea's leading manufacturers — for both residential and commercial applications.
+                        Wall Cosmetics is an authorised supplier of premium Korean interior films and wallpapers in Singapore. We offer a vast catalogue of textures, finishes, and patterns — sourced directly from Korea's leading manufacturers — for both residential and commercial applications.
                     </p>
                 </div>
                 <div className="items-center lg:flex gap-x-8">
@@ -19,7 +19,7 @@ export default function About() {
                     </div>
                     <div className="">
                         <p className="pb-8 tracking-wide">
-                            We started Wall Cosmetics with a simple belief: that beautiful, high-quality wall finishes should be accessible to everyone. Korean interior films offer the look of real wood, stone, and fabric at a fraction of the cost — and we're here to bring that to Malaysian homes and businesses.
+                            We started Wall Cosmetics with a simple belief: that beautiful, high-quality wall finishes should be accessible to everyone. Korean interior films offer the look of real wood, stone, and fabric at a fraction of the cost — and we're here to bring that to Singapore homes and businesses.
                             <br />
                             <br />
 

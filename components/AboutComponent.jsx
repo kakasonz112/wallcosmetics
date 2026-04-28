@@ -14,7 +14,7 @@ export default function AboutComponent() {
 
                 <div className="items-center">
                     <p className="px-12 pb-4 ">
-                        Wall Cosmetics is an authorised distributor of premium Korean interior films and wallpapers. Our products are trusted by homeowners, contractors, and commercial fit-out teams across Malaysia. We carry a wide range of textures — wood, stone, fabric, metal, and solid colours — all designed to last.
+                        At Wall Cosmetics, we aim to provide affordable yet durable wallpaper to all residential and commercial clients. As an authorised distributor of premium Korean interior films, our products are trusted by homeowners, contractors, and commercial fit-out teams. We carry a wide range of textures — wood, stone, fabric, metal, and solid colours — all designed to last.
                     </p>
                     <div className="flex px-12 pt-4 gap-x-4 ">
                         <Image src="/wallpaper/56125-3C.jpg" width={100} height={80} alt="" className=" h-[100px]" />
