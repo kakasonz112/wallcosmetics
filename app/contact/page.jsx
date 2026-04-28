@@ -4,7 +4,8 @@ import { useState, useRef } from "react";
 import { TbArrowUpRight, TbPhone, TbMail, TbMapPin, TbClock, TbPaperclip, TbX, TbCheck, TbLoader2 } from "react-icons/tb";
 
 const MAX_FILE_SIZE_MB = 10;
-const ACCEPTED = ".jpg,.jpeg,.png,.pdf";
+// Images, PDFs, CAD files, scanned docs — common HDB floor plan formats
+const ACCEPTED = ".jpg,.jpeg,.png,.pdf,.dwg,.dxf,.tif,.tiff,.heic,.heif,.webp,.bmp,.doc,.docx";
 
 export default function Contact() {
     const [status, setStatus] = useState("idle"); // idle | loading | success | error
@@ -154,7 +155,7 @@ export default function Contact() {
                         <form ref={formRef} className="space-y-5" onSubmit={handleSubmit}>
                             <div className="grid sm:grid-cols-2 gap-5">
                                 <div>
-                                    <label className="block text-xs tracking-widest uppercase text-gray-400 mb-1.5" htmlFor="firstName">First Name</label>
+                                    <label className="block text-xs tracking-widest uppercase text-gray-400 mb-1.5" htmlFor="firstName">First Name*</label>
                                     <input
                                         id="firstName"
                                         name="firstName"
@@ -165,7 +166,7 @@ export default function Contact() {
                                     />
                                 </div>
                                 <div>
-                                    <label className="block text-xs tracking-widest uppercase text-gray-400 mb-1.5" htmlFor="lastName">Last Name</label>
+                                    <label className="block text-xs tracking-widest uppercase text-gray-400 mb-1.5" htmlFor="lastName">Last Name*</label>
                                     <input
                                         id="lastName"
                                         name="lastName"
@@ -190,18 +191,19 @@ export default function Contact() {
                             </div>
 
                             <div>
-                                <label className="block text-xs tracking-widest uppercase text-gray-400 mb-1.5" htmlFor="phone">Phone Number</label>
+                                <label className="block text-xs tracking-widest uppercase text-gray-400 mb-1.5" htmlFor="phone">Phone Number*</label>
                                 <input
                                     id="phone"
                                     name="phone"
                                     type="tel"
+                                    required
                                     className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-900 text-sm"
-                                    placeholder="+60 12-345 6789"
+                                    placeholder="+65 9876 5432"
                                 />
                             </div>
 
                             <div>
-                                <label className="block text-xs tracking-widest uppercase text-gray-400 mb-1.5" htmlFor="subject">Subject</label>
+                                <label className="block text-xs tracking-widest uppercase text-gray-400 mb-1.5" htmlFor="subject">Subject*</label>
                                 <input
                                     id="subject"
                                     name="subject"
@@ -213,7 +215,7 @@ export default function Contact() {
                             </div>
 
                             <div>
-                                <label className="block text-xs tracking-widest uppercase text-gray-400 mb-1.5" htmlFor="message">Message</label>
+                                <label className="block text-xs tracking-widest uppercase text-gray-400 mb-1.5" htmlFor="message">Message*</label>
                                 <textarea
                                     id="message"
                                     name="message"
@@ -226,7 +228,7 @@ export default function Contact() {
 
                             <div>
                                 <label className="block text-xs tracking-widest uppercase text-gray-400 mb-1.5">
-                                    Floor Plan / Attachment <span className="normal-case">(optional · jpg, png, pdf · max 10 MB)</span>
+                                    Floor Plan / Attachment <span className="normal-case">(optional · jpg, png, pdf, dwg, dxf, tiff, heic, doc · max 10 MB)</span>
                                 </label>
                                 <input
                                     ref={fileInputRef}

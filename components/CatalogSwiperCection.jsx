@@ -26,7 +26,7 @@ export default function CatalogSwiperSection() {
                             <p>
                                 From wood grain and marble to solid colours and abstract patterns — each film is designed to transform your space affordably and beautifully.
                             </p>
-                            <a href="" className="inline-flex items-center pt-4 text-lg font-bold text-black underline">View Gallery <TbArrowUpRight /> </a>
+                            <a href="/gallery" className="inline-flex items-center pt-4 text-lg font-bold text-black underline">View Gallery <TbArrowUpRight /> </a>
                         </div>
                     </div>
                 </div>
